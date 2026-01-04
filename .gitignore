@@ -1,0 +1,21 @@
+# IDE Settings (Optional, but good practice)
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Prerequisites
+*.d
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CMake Build Artifacts (Very Important)
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
